@@ -25,7 +25,8 @@ def generateVHD(filename):
     myVHD.close()
     myHex.close()
 
-generateVHD("riscv1.txt")
+generateVHD("myHexFile.txt")
+#in the above, replace "myHexFile.txt" with appropriate text file
 
 #the program cannot be over 2^13 bits = 8192 bits
 #each line in the hexadecimal file is an 8 digit hex value, thus each line is 8*4 = 32 bits long
